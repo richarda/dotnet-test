@@ -22,5 +22,12 @@ namespace Tests
             var myLot = new Lot(200);
             Assert.AreEqual(200, myLot.Spaces);
         }
+
+        [Test]
+        public void Test3()
+        {
+            var myLot = new Lot(300);
+            Assert.AreEqual(200, myLot.Spaces);
+        }
     }
 }
