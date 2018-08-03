@@ -6,9 +6,9 @@ namespace Parkinglot
     {
         private int _spaces;
         public int Spaces => _spaces;
-        public Lot()
+        public Lot(int numberOfSpaces)
         {
-            _spaces = 12;
+            _spaces = numberOfSpaces;
         }
     }
 }
